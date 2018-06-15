@@ -1,0 +1,22 @@
+{
+	deploymentProperties : {
+        "VEGAN_AVAILABLE" : {
+            "description" : "Indicates whether vegan options are available",
+            "category" : null,
+            "value" : "true",
+            "required" : "0"
+        },
+        "VEGETARIAN_AVAILABLE" : {
+            "description" : "Indicates whether vegetarian options are available",
+            "category" : null,
+            "value" : "true",
+            "required" : "0"
+        },
+        "NON_VEGETARIAN_AVAILABLE" : {
+            "description" : "Indicates whether non vegetarian options are available",
+            "category" : null,
+            "value" : "false",
+            "required" : "0"
+        }
+    }
+}

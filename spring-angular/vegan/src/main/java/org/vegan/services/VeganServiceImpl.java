@@ -3,7 +3,16 @@ package org.vegan.services;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
 public class VeganServiceImpl implements VeganService {
+    
+    private static final Log LOG = LogFactory.getLog(VeganService.class);
+    
+    public VeganServiceImpl() {
+        
+    }
 
 	public List<String> offerings() {
 		// Reflections reflections = new Reflections("org.vegan");

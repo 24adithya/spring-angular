@@ -8,6 +8,7 @@
 	<name>spring-angular Maven Webapp</name>
 	<properties>		
 		<org.springframework.version>4.2.0.RELEASE</org.springframework.version>
+		<log4j2.version>2.5</log4j2.version>
 	</properties>
 	<url>http://maven.apache.org</url>
 	

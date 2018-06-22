@@ -6,15 +6,13 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 
 public class VeganConfigCondition implements ConfigurationCondition {
 
-	@Override
 	public ConfigurationPhase getConfigurationPhase() {
 		return ConfigurationPhase.PARSE_CONFIGURATION;
 	}
 
-	@Override
 	public boolean matches(	ConditionContext context,
 							AnnotatedTypeMetadata metadata) {
-		boolean installed = AligneWebProperties.isGboInstalled();
+		boolean installed = FoodProperties.isGboInstalled();
 		return installed;
 	}
 }
